@@ -65,6 +65,7 @@ const Index = () => {
             <div className="hidden md:flex gap-8">
               <a href="#home" className="font-medium hover:text-magical-pink transition-colors">Главная</a>
               <a href="#stories" className="font-medium hover:text-magical-pink transition-colors">Наши сказки</a>
+              <a href="#gallery" className="font-medium hover:text-magical-pink transition-colors">Примеры работ</a>
               <a href="#order" className="font-medium hover:text-magical-pink transition-colors">Заказать</a>
               <a href="#contacts" className="font-medium hover:text-magical-pink transition-colors">Контакты</a>
             </div>
@@ -135,6 +136,121 @@ const Index = () => {
                 </div>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" className="container mx-auto px-6 py-20">
+        <div className="max-w-6xl mx-auto">
+          <h3 className="text-5xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-magical-pink to-magical-yellow">
+            Наши готовые работы
+          </h3>
+          <p className="text-center text-xl mb-12 text-foreground/70">
+            Посмотри, какие волшебные истории мы уже создали! ✨
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                <img 
+                  src="https://cdn.poehali.dev/projects/8dc68d92-9fc8-4d02-b562-de79627d12eb/files/827b167c-e322-4bce-b492-46181c5f2dbd.jpg" 
+                  alt="Волшебный лес"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <div>
+                    <h4 className="text-white font-bold text-xl mb-1">Приключения в волшебном лесу 🌳</h4>
+                    <p className="text-white/90 text-sm">Сказка про Машу и её друзей</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                <img 
+                  src="https://cdn.poehali.dev/projects/8dc68d92-9fc8-4d02-b562-de79627d12eb/files/b2872111-122d-4774-b654-e2849ca04e3f.jpg" 
+                  alt="Космос"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <div>
+                    <h4 className="text-white font-bold text-xl mb-1">Космическое путешествие 🚀</h4>
+                    <p className="text-white/90 text-sm">Мультфильм про Диму-космонавта</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                <img 
+                  src="https://cdn.poehali.dev/projects/8dc68d92-9fc8-4d02-b562-de79627d12eb/files/04f83921-d61d-4f71-9069-838d44c72c28.jpg" 
+                  alt="Подводное царство"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <div>
+                    <h4 className="text-white font-bold text-xl mb-1">Подводное царство 🐠</h4>
+                    <p className="text-white/90 text-sm">История про Алису и морских друзей</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                <img 
+                  src="https://cdn.poehali.dev/projects/8dc68d92-9fc8-4d02-b562-de79627d12eb/files/0a137532-b937-442d-94e7-66f217bf4e47.jpg" 
+                  alt="Добрый дракон"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <div>
+                    <h4 className="text-white font-bold text-xl mb-1">Сказка о добром драконе 🐉</h4>
+                    <p className="text-white/90 text-sm">Сказка про Егора и дракона Гошу</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                <img 
+                  src="https://cdn.poehali.dev/projects/8dc68d92-9fc8-4d02-b562-de79627d12eb/files/90897283-e54b-48ef-a56d-2229f2a6af4f.jpg" 
+                  alt="Волшебная книга"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <div>
+                    <h4 className="text-white font-bold text-xl mb-1">Волшебная книга историй 📖</h4>
+                    <p className="text-white/90 text-sm">Мультфильм про Соню и её друзей</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                <img 
+                  src="https://cdn.poehali.dev/projects/8dc68d92-9fc8-4d02-b562-de79627d12eb/files/d613f04d-f599-40b7-a511-bdb6e189475e.jpg" 
+                  alt="Сказочное королевство"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                  <div>
+                    <h4 className="text-white font-bold text-xl mb-1">Сказочное королевство 👑</h4>
+                    <p className="text-white/90 text-sm">История про принцессу Варю</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-12">
+            <p className="text-2xl text-foreground/80 mb-6">
+              Уже более <span className="font-bold text-magical-pink">500+</span> счастливых детей получили свои персональные сказки!
+            </p>
+            <Button 
+              size="lg" 
+              className="bg-magical-blue hover:bg-magical-blue/90 text-white text-xl px-12 py-7 rounded-full shadow-2xl hover:scale-105 transition-transform"
+              onClick={() => document.getElementById('order')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Хочу свою сказку! 🎨
+            </Button>
           </div>
         </div>
       </section>
